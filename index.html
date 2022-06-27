@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: burlywood;
+            font-family: "Tahoma", sans-serif;
+        }
+        .container{
+            max-width: 800px;
+            width: 100%;;
+            margin: 20px auto 0;
+        }
+
+        .container .img{
+            border-radius: 20px;
+            width: 600px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        div.description{
+            background-color: rgba(255,255,255,0.9);
+            border-radius: 20px;
+            padding: 20px;
+            margin: -70px auto 0;
+            z-index: 3;
+            position: relative;
+            width: 500px;
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .tarif > p{
+            display: inline-block;
+            margin: 20px 0;
+        }
+
+        .tarif > p span{
+            color: brown;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .tarif ul,
+        .tarif ol{
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        p.sign{
+            font-style: italic;
+            display: block;
+            text-align: end;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Çikolatalı Küpler</h1>
+        <div class="img">
+            <img src="https://i.cnnturk.com/i/cnnturk/75/740x416/5ffc11debf214423c05409d9.jpg" alt="Çikolata Tarif">
+        </div>
+        <div class="description">
+            <p class="description">Çikolata ve fındık ile harika bir tarifle karşınızdayız. Evinizde bulunabilen basit malzemeler ile kısa sürede hazırlayıp, afiyat ile yiyebilir, ikram edebilirsiniz. Haydi malzeme ve tarife geçelim</p>
+            <br>
+            <p><b>Tarif : </b>Hüseyin ESKAN</p>
+        </div>
+
+        <div class="tarif">
+            <p><span>Persiyon : </span>4 kişilik</p> | 
+            <p><span>Hazırlama Süresi : </span> 30 dk.</p> | 
+            <p><span>Pişirme Süresi : </span>10 dk.</p>
+
+            <h2>Malzemeler</h2>
+            <ul>
+                <li>350gr bitter çikolata</li>
+                <li>150ml süt</li>
+                <li>1 çorba kaşığı tereyağ</li>
+                <li>150gr fındık</li>
+            </ul>
+            <br>
+
+            <h2>Hazırlanışı</h2>
+            <ol>
+                <li>Bitter çikolatayı benmari usulü eritin.</li>
+                <li>Eriyen çikolaya üzerine sütü ilave edin ve iyice karıştırın.</li>
+                <li>Fındıkları irili ufaklı dövün ve tencereye ekleyin.</li>
+                <li>Hazırlanan karışımı bir tepsiye yağlı kağıt sererek üzerine yayın.</li>
+                <li>Buz dolabında 2 saat bekletin.</li>
+                <li>Dilediğiniz gibi parçalayıp, servis ediniz.</li>
+            </ol>
+
+            <p class="sign">Afiyet Olsun.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
