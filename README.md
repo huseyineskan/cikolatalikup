@@ -1,5 +1,7 @@
 # Çikolatalı Küp Tarifi
 
+![Demo](https://github.com/huseyineskan/cikolatalikup/blob/main/demo.png?raw=true)
+
 Çikolata ve fındık ile harika bir tarifle karşınızdayız. Evinizde bulunabilen basit malzemeler ile kısa sürede hazırlayıp, afiyat ile yiyebilir, ikram edebilirsiniz. Haydi malzeme ve tarife geçelim
 
 
